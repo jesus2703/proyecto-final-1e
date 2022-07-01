@@ -1,3 +1,6 @@
+// Algoritmo para realizar la compra de cortes de carne vacuna
+
+
 // Creamos objetos de los cortes que vamos a consultar
 
 const corteCarne1 = {
