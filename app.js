@@ -34,7 +34,7 @@ let totalCompra = 0;
 // realizamos la consulta al usuario
 
 let corteCliente = prompt(
-  "Escriba el corte de carne que desee llevar: cuadril, nalga, peceto, lomo o costila"
+  "Escriba el corte de carne que desee llevar: cuadril, nalga, peceto, lomo o costilla"
 );
 corteCliente.toLowerCase();
 cortesElegidos.push(corteCliente);
@@ -84,7 +84,7 @@ if (corteCliente === "cuadril" && corteCantidad > 0 && corteCantidad != " ") {
 
 while (confirm("Desea llevar algun corte mas?")) {
   let corteCliente = prompt(
-    "Escriba el corte de carne que desee llevar: cuadril, nalga, peceto, lomo o costila"
+    "Escriba el corte de carne que desee llevar: cuadril, nalga, peceto, lomo o costilla"
   );
   corteCliente.toLowerCase();
   cortesElegidos.push(corteCliente);
